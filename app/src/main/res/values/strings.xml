@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Services and product menu</string>
+    <string name="Services">Services List</string>
+    <string name="menu_snpl1"><t>Hair Cut</t>\n<t>Price: RM55 - RM90</t></string>
+    <string name="menu_snpl2"><t>Color</t>\n<t>Price: RM150 – RM220</t></string>
+    <string name="menu_snpl3"><t>Hair Perm</t>\n<t>Price: RM180 – RM400</t></string>
+    <string name="menu_snpl4"><t>Package 1</t>\n<t>Hair Cut + Color</t>\n<t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Color: RM140 – RM260</t></string>
+    <string name="menu_snpl5"><t>Package 2</t>\n<t>Hair Cut + Hair Perm</t>\n<t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Hair Perm: RM165 – RM380</t></string>
+    <string name="menu_snpl6"><t>Package 3</t>\n<t>Color + Hair Perm</t>\n<t>Price of Color: RM140 – RM260</t>\n<t>Price of Hair Perm: RM165 – RM380</t></string>
+    <string name="menu_snpl7"><t>Package 4</t>\n<t>Hair Cut + Color + Hair Perm</t>\n<t>Price of Hair Cut: RM45 – RM80</t>\n<t>Price of Color: RM130 – RM250</t>\n<t>Price of Hair Perm: RM150 – RM370</t></string>
+    <string name="menu_snpl8"><t>Shampoo: NIOXIN 3-Part System 1 Cleanser Shampoo for Natural Hair with Light Thinning 300ml</t>\n<t>Price: RM45</t></string>
+    <string name="menu_snpl9"><t>Shampoo: NIOXIN 3-Part System 1 Scalp Therapy Revitalizing Conditioner 1000ml</t>\n<t>Price: RM85</t></string>
+    <string name="menu_snpl10"><t>Shampoo: NIOXIN 3-Part System 1 Scalp Therapy Revitalising Conditioner for Natural Hair with Light Thinning 300ml</t>\n<t>Price: RM45</t></string>
+    <string name="menu_snpl11"><t>Conditioner: NIOXIN 3-Part System 1 Scalp and Hair Treatment for Natural Hair with Light Thinning 100ml</t>\n<t>Price: RM30</t></string>
+    <string name="menu_snpl12"><t>Conditioner: NIOXIN 3-Part System 1 Scalp Therapy Revitalizing Conditioner 1000ml</t>\n<t>Price: RM95</t></string>
+    <string name="menu_snpl13"><t>Conditioner: NIOXIN 3-Part System 1 Trial Kit for Natural Hair with Light Thinning</t>\n<t>Price: RM110</t></string>
+    <string name="menu_snpl14"><t>Hair Treatments: Shiseido Professional Sublimic Fuente Forte Clarity Beauty Spa Dandruff Scalp (125ml) </t>\n<t>Price: RM30</t></string>
+    <string name="menu_snpl15"><t>Hair Treatments: Kerastase Resistance Ciment Thermique (150ml) </t>\n<t>Price: RM55</t></string>
+    <string name="menu_snpl16"><t>Hair Treatments: Kerastase Resistance Ciment Thermique (150ml) </t>\n<t>Price: RM60</t></string>
+    <string name="menu_snpl17"><t>Hair Treatments: Blondee Crystal Repair Serum (120ml) </t>\n<t>Price: RM25</t></string>
+    <string name="menu_snpl18"><t>Hair Treatments: Loreal Professionnel Hair SPA Repairing Creambath (1000ml) </t>\n<t>Price: RM98</t></string>
+    <string name="Product">Product List</string>
+    <string name="menu_snpl19"><t>Hair Treatments: Schwarzkopf BC Bonacure Scalp Genesis Root Activating Serum (100ml) </t>\n<t>Price: RM20</t></string>
+    <string name="menu_snpl20"><t>Hair Treatments: Revlon Pro Uniq One Lotus Flower Hair Treatment (150ml) </t>\n<t>Price: RM40</t></string>
+</resources>
