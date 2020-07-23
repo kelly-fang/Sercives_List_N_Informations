@@ -23,14 +23,14 @@
                 android:id="@+id/Services"
                 android:layout_width="306dp"
                 android:layout_height="68dp"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="5dp"
+                android:background="#A4D1D6"
                 android:gravity="center"
                 android:text="@string/Services"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="#3F198E"
                 android:textSize="50sp"
                 android:textStyle="bold"
-                android:background="#A4D1D6"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.301"
                 app:layout_constraintStart_toStartOf="parent"
@@ -41,23 +41,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:columnCount="2"
-                android:verticalSpacing="50dp">
+                android:rowCount="7"
+                android:verticalSpacing="60dp">
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="171dp"
-                    android:layout_height="99dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/Services"
                     app:srcCompat="@drawable/snpl1" />
 
                 <TextView
                     android:id="@+id/menu_snpl1"
-                    android:layout_width="180dp"
-                    android:layout_height="121dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -70,22 +71,21 @@
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toBottomOf="@+id/Services" />
 
-
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="184dp"
+                    android:layout_width="120dp"
                     android:layout_height="100dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3"
                     app:srcCompat="@drawable/snpl2" />
 
                 <TextView
                     android:id="@+id/menu_snpl2"
-                    android:layout_width="173dp"
-                    android:layout_height="110dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -101,19 +101,19 @@
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5"
                     app:srcCompat="@drawable/snpl3" />
 
                 <TextView
                     android:id="@+id/menu_snpl3"
-                    android:layout_width="173dp"
-                    android:layout_height="117dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -128,46 +128,46 @@
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6"
                     app:srcCompat="@drawable/snpl4" />
 
                 <TextView
                     android:id="@+id/menu_snpl4"
-                    android:layout_width="177dp"
-                    android:layout_height="146dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
                     android:background="#A4D1D6"
-                    android:gravity="center"
+                    android:gravity="center|center_horizontal"
                     android:text="@string/menu_snpl4"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView7"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7"
                     app:srcCompat="@drawable/snpl5" />
 
                 <TextView
                     android:id="@+id/menu_snpl5"
-                    android:layout_width="173dp"
-                    android:layout_height="174dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -175,26 +175,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl5"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView8"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8"
                     app:srcCompat="@drawable/snpl6" />
 
                 <TextView
                     android:id="@+id/menu_snpl6"
-                    android:layout_width="188dp"
-                    android:layout_height="157dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -202,26 +202,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl6"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
                 <ImageView
                     android:id="@+id/imageView10"
-                    android:layout_width="187dp"
-                    android:layout_height="116dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/Product"
                     app:srcCompat="@drawable/snpl7" />
 
                 <TextView
                     android:id="@+id/menu_snpl7"
-                    android:layout_width="180dp"
-                    android:layout_height="238dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -229,7 +229,7 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl7"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView10"
                     app:layout_constraintTop_toBottomOf="@+id/Product" />
@@ -257,29 +257,30 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:columnCount="2"
+                android:rowCount="13"
                 android:verticalSpacing="50dp">
 
                 <ImageView
                     android:id="@+id/imageView11"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10"
                     app:srcCompat="@drawable/snpl8" />
 
                 <TextView
                     android:id="@+id/menu_snpl8"
-                    android:layout_width="174dp"
-                    android:layout_height="184dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
                     android:gravity="center"
                     android:text="@string/menu_snpl8"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     android:background="#A4D1D6"
                     android:textColor="@android:color/black"
@@ -288,19 +289,19 @@
 
                 <ImageView
                     android:id="@+id/imageView12"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView11"
                     app:srcCompat="@drawable/snpl9" />
 
                 <TextView
                     android:id="@+id/menu_snpl9"
-                    android:layout_width="174dp"
-                    android:layout_height="181dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -308,26 +309,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl9"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView12"
                     app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
                 <ImageView
                     android:id="@+id/imageView13"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView12"
                     app:srcCompat="@drawable/snpl10" />
 
                 <TextView
                     android:id="@+id/menu_snpl10"
-                    android:layout_width="174dp"
-                    android:layout_height="225dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -335,26 +336,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl10"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView13"
                     app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
                 <ImageView
                     android:id="@+id/imageView14"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView13"
                     app:srcCompat="@drawable/snpl11" />
 
                 <TextView
                     android:id="@+id/menu_snpl11"
-                    android:layout_width="179dp"
-                    android:layout_height="204dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -362,26 +363,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl11"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView14"
                     app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
                 <ImageView
                     android:id="@+id/imageView15"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView14"
                     app:srcCompat="@drawable/snpl12" />
 
                 <TextView
                     android:id="@+id/menu_snpl12"
-                    android:layout_width="165dp"
-                    android:layout_height="199dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -389,26 +390,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl12"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView15"
                     app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
                 <ImageView
                     android:id="@+id/imageView16"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView15"
                     app:srcCompat="@drawable/snpl13" />
 
                 <TextView
                     android:id="@+id/menu_snpl13"
-                    android:layout_width="179dp"
-                    android:layout_height="162dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -416,26 +417,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl13"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView16"
                     app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
                 <ImageView
                     android:id="@+id/imageView17"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView16"
                     app:srcCompat="@drawable/snpl14" />
 
                 <TextView
                     android:id="@+id/menu_snpl14"
-                    android:layout_width="179dp"
-                    android:layout_height="226dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -443,26 +444,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl14"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView17"
                     app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
                 <ImageView
                     android:id="@+id/imageView18"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView17"
                     app:srcCompat="@drawable/snpl15" />
 
                 <TextView
                     android:id="@+id/menu_snpl15"
-                    android:layout_width="179dp"
-                    android:layout_height="152dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -470,26 +471,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl15"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
                     app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
                 <ImageView
                     android:id="@+id/imageView19"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView18"
                     app:srcCompat="@drawable/snpl16" />
 
                 <TextView
                     android:id="@+id/menu_snpl16"
-                    android:layout_width="181dp"
-                    android:layout_height="153dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -497,26 +498,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl16"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView19"
                     app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
                 <ImageView
                     android:id="@+id/imageView20"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView19"
                     app:srcCompat="@drawable/snpl17" />
 
                 <TextView
                     android:id="@+id/menu_snpl17"
-                    android:layout_width="176dp"
-                    android:layout_height="160dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -524,26 +525,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl17"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView20"
                     app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
                 <ImageView
                     android:id="@+id/imageView21"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView20"
                     app:srcCompat="@drawable/snpl18" />
 
                 <TextView
                     android:id="@+id/menu_snpl18"
-                    android:layout_width="178dp"
-                    android:layout_height="186dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -551,26 +552,26 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl18"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView21"
                     app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
                 <ImageView
                     android:id="@+id/imageView22"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView21"
                     app:srcCompat="@drawable/snpl19" />
 
                 <TextView
                     android:id="@+id/menu_snpl19"
-                    android:layout_width="173dp"
-                    android:layout_height="186dp"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
@@ -578,37 +579,41 @@
                     android:gravity="center"
                     android:text="@string/menu_snpl19"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView22"
                     app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
                 <ImageView
                     android:id="@+id/imageView23"
-                    android:layout_width="184dp"
-                    android:layout_height="134dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="36dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView22"
-                    app:srcCompat="@drawable/snpl20" />
-
-                <TextView
-                    android:id="@+id/menu_snpl20"
-                    android:layout_width="173dp"
-                    android:layout_height="152dp"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="15dp"
+                    android:layout_marginEnd="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                    app:srcCompat="@drawable/snpl20"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:id="@+id/menu_snpl20"
+                    android:layout_width="265dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="5dp"
                     android:background="#A4D1D6"
                     android:gravity="center"
                     android:text="@string/menu_snpl20"
                     android:textColor="@android:color/black"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/imageView23"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+                    app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                    android:layout_marginRight="5dp" />
             </GridLayout>
 
         </TableLayout>
