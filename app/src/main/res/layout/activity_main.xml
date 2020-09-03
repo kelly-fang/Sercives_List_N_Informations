@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/htl_background">
+    android:layout_height="wrap_content"
+    android:background="@drawable/htl_background"
+    tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,13 +22,12 @@
             <TextView
                 android:id="@+id/Services"
                 android:layout_width="306dp"
-                android:layout_height="68dp"
-                android:layout_marginTop="5dp"
-                android:background="#A4D1D6"
+                android:layout_height="70dp"
+                android:background="#000000"
                 android:gravity="center"
                 android:text="@string/Services"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                android:textColor="#3F198E"
+                android:textColor="#DCCEFA"
                 android:textSize="50sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -36,432 +35,219 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <GridLayout
-                android:id="@+id/simpleGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="15dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/Services"
-                    app:srcCompat="@drawable/snpl1" />
-
-                <TextView
-                    android:id="@+id/menu_snpl1"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="15dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl1"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toBottomOf="@+id/Services" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl1"
+                android:text="@string/menu_snpl1"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl1" />
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/thirdGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView3"
-                    app:srcCompat="@drawable/snpl2" />
-
-                <TextView
-                    android:id="@+id/menu_snpl2"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl2"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView3" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl2"
+                android:text="@string/menu_snpl2"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl2" />
 
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button3"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/fourGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
-                    app:srcCompat="@drawable/snpl3" />
-
-                <TextView
-                    android:id="@+id/menu_snpl3"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl3"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView6"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView5" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl3"
+                android:text="@string/menu_snpl3"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl3" />
 
-                <Button
-                    android:id="@+id/button5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
-
-                <Button
-                    android:id="@+id/button6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button5"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/fiveGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6"
-                    app:srcCompat="@drawable/snpl4" />
-
-                <TextView
-                    android:id="@+id/menu_snpl4"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center|center_horizontal"
-                    android:text="@string/menu_snpl4"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView7"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl4"
+                android:text="@string/menu_snpl4"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl4" />
 
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
-
-                <Button
-                    android:id="@+id/button8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button7"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/sixGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView7"
-                    app:srcCompat="@drawable/snpl5" />
-
-                <TextView
-                    android:id="@+id/menu_snpl5"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl5"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView8"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView7" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl5"
+                android:text="@string/menu_snpl5"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl5" />
 
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
-
-                <Button
-                    android:id="@+id/button10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button9"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/sevenGridView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView8"
-                    app:srcCompat="@drawable/snpl6" />
-
-                <TextView
-                    android:id="@+id/menu_snpl6"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl6"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView9"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView8" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl6"
+                android:text="@string/menu_snpl6"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl6" />
 
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
 
-                <Button
-                    android:id="@+id/button12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button11"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
-
-            <GridLayout
-                android:id="@+id/GridView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:verticalSpacing="60dp">
-
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/Product"
-                    app:srcCompat="@drawable/snpl7" />
-
-                <TextView
-                    android:id="@+id/menu_snpl7"
-                    android:layout_width="265dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#A4D1D6"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl7"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/imageView10"
-                    app:layout_constraintTop_toBottomOf="@+id/Product" /></GridLayout>
-
-            <RelativeLayout
+            <Button
+                android:id="@+id/btn_snpl7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp">
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl7"
+                android:text="@string/menu_snpl7"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl7" />
 
-                <Button
-                    android:id="@+id/button13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:text="@string/more_info"
-                    app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginLeft="80dp" />
+            <Button
+                android:id="@+id/btn_snpl8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl8"
+                android:text="@string/menu_snpl8"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl8" />
 
-                <Button
-                    android:id="@+id/button14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginStart="250dp"
-                    android:text="@string/booking"
-                    app:layout_constraintBaseline_toBaselineOf="@+id/button13"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginLeft="250dp" />
-            </RelativeLayout>
+            <Button
+                android:id="@+id/btn_snpl9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl9"
+                android:text="@string/menu_snpl9"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl9" />
+
+            <Button
+                android:id="@+id/btn_snpl10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl10"
+                android:text="@string/menu_snpl10"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl10" />
+
+            <Button
+                android:id="@+id/btn_snpl11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl11"
+                android:text="@string/menu_snpl11"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl11" />
+
+            <Button
+                android:id="@+id/btn_snpl12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl12"
+                android:text="@string/menu_snpl12"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl12" />
+
+            <Button
+                android:id="@+id/btn_snpl13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl13"
+                android:text="@string/menu_snpl13"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl13" />
+
+
+            <Button
+                android:id="@+id/btn_snpl14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl14"
+                android:text="@string/menu_snpl14"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl14" />
+
+
 
         </TableLayout>
     </ScrollView>
