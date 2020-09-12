@@ -15,6 +15,7 @@ private Button btn_snpla, btn_snplb, btn_snplc, btn_snpld, btn_snple, btn_snplf,
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         btn_snpla = (Button) findViewById(R.id.btn_snpl1);
         btn_snplb = (Button) findViewById(R.id.btn_snpl2);
         btn_snplc = (Button) findViewById(R.id.btn_snpl3);
@@ -36,169 +37,140 @@ private Button btn_snpla, btn_snplb, btn_snplc, btn_snpld, btn_snple, btn_snplf,
                 opensnpl1();
             }
         });
-
         btn_snplb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl2();
             }
         });
-
         btn_snplc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl3();
             }
         });
-
         btn_snpld.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl4();
             }
         });
-
         btn_snple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl5();
             }
         });
-
         btn_snplf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl6();
             }
         });
-
         btn_snplg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl7();
             }
         });
-
         btn_snplh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl8();
             }
         });
-
         btn_snpli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl9();
             }
         });
-
         btn_snplj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl10();
             }
         });
-
         btn_snplk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl11();
             }
         });
-
         btn_snpll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl12();
             }
         });
-
         btn_snplm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl13();
             }
         });
-
         btn_snpln.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opensnpl14();
             }
         });
-
-
     }
 
     public void opensnpl1(){
         Intent intent = new Intent (this, snpl1.class);
         startActivity(intent);
     }
-
     public void opensnpl2(){
         Intent intent = new Intent (this, snpl2.class);
         startActivity(intent);
     }
-
     public void opensnpl3(){
         Intent intent = new Intent (this, snpl3.class);
         startActivity(intent);
     }
-
     public void opensnpl4(){
         Intent intent = new Intent (this, snpl4.class);
         startActivity(intent);
     }
-
     public void opensnpl5(){
         Intent intent = new Intent (this, snpl5.class);
         startActivity(intent);
     }
-
     public void opensnpl6(){
         Intent intent = new Intent (this, snpl6.class);
         startActivity(intent);
     }
-
     public void opensnpl7(){
         Intent intent = new Intent (this, snpl7.class);
         startActivity(intent);
     }
-
     public void opensnpl8(){
         Intent intent = new Intent (this, snpl8.class);
         startActivity(intent);
     }
-
     public void opensnpl9(){
         Intent intent = new Intent (this, snpl9.class);
         startActivity(intent);
     }
-
     public void opensnpl10(){
         Intent intent = new Intent (this, snpl10.class);
         startActivity(intent);
     }
-
     public void opensnpl11(){
         Intent intent = new Intent (this, snpl11.class);
         startActivity(intent);
     }
-
     public void opensnpl12(){
         Intent intent = new Intent (this, snpl12.class);
         startActivity(intent);
     }
-
     public void opensnpl13(){
         Intent intent = new Intent (this, snpl13.class);
         startActivity(intent);
     }
-
     public void opensnpl14(){
         Intent intent = new Intent (this, snpl14.class);
         startActivity(intent);
     }
-
 }

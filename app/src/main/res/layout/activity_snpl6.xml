@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         android:fillViewport="true"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp">
@@ -17,46 +18,39 @@
         <TableLayout
             android:layout_width="385dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:layout_gravity="center"
             android:stretchColumns="1">
 
-            <GridLayout
-                android:id="@+id/Gridlayout6"
-                android:layout_height="160dp"
-                android:columnCount="2">
+            <TextView
+                android:id="@+id/menu_snpl6"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:text="@string/menu_snpl6_sn"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/round_button"/>
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="140dp"
-                    android:layout_height="140dp"
-                    android:layout_marginTop="20dp"
-                    android:background="#000000"
-                    app:srcCompat="@drawable/snpl6" />
-
-                <TextView
-                    android:id="@+id/menu_snpl6"
-                    android:layout_width="245dp"
-                    android:layout_height="140dp"
-                    android:layout_marginTop="20dp"
-                    android:background="#000000"
-                    android:gravity="center"
-                    android:text="@string/menu_snpl6"
-                    android:textColor="#DCCEFA"
-                    android:textSize="30sp"
-                    android:textStyle="bold" /></GridLayout>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"></androidx.viewpager.widget.ViewPager>
 
             <TextView
                 android:id="@+id/menu_snpl6_infor"
                 android:layout_width="385dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="#000000"
+                android:background="@drawable/round_button"
+                android:fontFamily="sans-serif-smallcaps"
                 android:gravity="center_vertical"
                 android:text="@string/menu_snpl6_infor"
-                android:textColor="#DCCEFA"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
             <RelativeLayout>
                 <Button
                     android:id="@+id/btn_booking6"
@@ -64,23 +58,24 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_centerHorizontal="true"
+                    android:background="@drawable/rounb_button2"
                     android:text="@string/booking"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_marginLeft="10dp" /></RelativeLayout>
 
             <EditText
                 android:id="@+id/enter_c6"
                 android:layout_height="60dp"
+                android:layout_marginTop="25dp"
                 android:autofillHints=" "
-                android:background="#000000"
                 android:ems="10"
                 android:gravity="center"
                 android:hint="@string/enter_comments"
                 android:inputType="textMultiLine"
-                android:textColor="#DCCEFA"
-                android:textColorHint="#DCCEFA"
+                android:background="@drawable/round_button"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
                 android:textSize="20sp" />
-
             <RelativeLayout>
                 <Button
                     android:id="@+id/btn_c6"
@@ -88,10 +83,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_centerHorizontal="true"
+                    android:background="@drawable/rounb_button2"
                     android:text="@string/send_comment"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:layout_marginLeft="10dp" /></RelativeLayout>
-
         </TableLayout>
     </ScrollView>
 

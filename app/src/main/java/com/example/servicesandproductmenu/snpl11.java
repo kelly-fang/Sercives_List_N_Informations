@@ -2,6 +2,7 @@ package com.example.servicesandproductmenu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -21,11 +22,16 @@ public class snpl11 extends AppCompatActivity {
     DatabaseReference reference;
     Package6 package6;
     int i = 0;
+    ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_snpl11);
+
+        viewPager = (ViewPager) findViewById(R.id.viewPager11);
+        ViewPagerAdapter11 viewPagerAdapter11 = new ViewPagerAdapter11(this);
+        viewPager.setAdapter(viewPagerAdapter11);
 
         package6 = new Package6();
         btn_booking11 = findViewById(R.id.btn_booking11);

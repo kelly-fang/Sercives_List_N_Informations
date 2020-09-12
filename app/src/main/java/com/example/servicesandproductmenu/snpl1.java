@@ -2,6 +2,7 @@ package com.example.servicesandproductmenu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -21,11 +22,16 @@ FirebaseDatabase database;
 DatabaseReference reference;
 Haircut haircut;
 int i = 0;
+ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_snpl1);
+
+        viewPager = (ViewPager) findViewById(R.id.viewPager1);
+        ViewPagerAdapter1 viewPagerAdapter1 = new ViewPagerAdapter1(this);
+        viewPager.setAdapter(viewPagerAdapter1);
 
         haircut = new Haircut();
         btn_booking1 = findViewById(R.id.btn_booking1);
